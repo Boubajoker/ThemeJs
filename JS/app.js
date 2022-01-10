@@ -1,4 +1,4 @@
-let dark_mod_btn = document.querySelector("#drak_mod_btn");
+let dark_mod_btn = document.querySelector("#dark_mod_btn");
 
 dark_mod_btn.addEventListener('click', ()=>{
     let themejs = new ThemeJs();
