@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theme.Js module - Testing</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./assets/icon/favicon.PNG" type="image/x-icon">
+    <title>Theme.Js module - Documentation</title>
 </head>
 <body>
-    <button class="dark-mod-btn" id="dark_mod_btn">Drak Mod</button>
+    <h1 class="main-title">ThemeJs</h1>
+    <h2 class="a1" id="a1">How to use it ?</h2>
+    <ul>
+        <li>Copy this link: <tt>https://boubajoker.github.io/ThemeJs/src/dist.js</tt> </li>
+    </ul>
+    <ul>
+        <li>Open your Html file and write this code to link the librairy to your site: <tt>script src="https://boubajoker.github.io/ThemeJs/src/dist.js" /script</tt> </li>
+    </ul>
+    <ul>
+        <li>Then, (for example) open your main script and type:</li>
+        <pre>
+            let drak_mod_btn = document.querySelector("#drak_mod_btn");
 
-    <script src="https://boubajoker.github.io/ThemeJs/src/dist.js"></script>
-    <script src="JS/app.js"></script>
+            dark_mod_btn.addEventListener('click' ()=>{
+                let themejs = new ThemeJs();
+                themejs.change_bg_color("#000");
+            });
+        </pre>
+    </ul>
+    <button class="copy-code" id="copy_code">Copy Code</button>
+    <p class="warn-msg">Commands list comming soon</p>
+    <a href="./therms.html" class="therms-link" id="therms_link">See therms and conditions here</a>
+    <h2 class="demo-text">Demo:</h2>
+    <button class="color-mod-btn" id="color_mod_btn">Change Bg Color</button>
+    <button class="dark-mod-btn" id="dark_mod_btn">Change to dark mod</button>
+    <button class="light-mod-btn" id="light_mod_btn">Change to light mod</button>
+    <!-- <script src="https://boubajoker.github.io/ThemeJs/src/dist.js"></script> online support -->
+    <script src="./src/dist.js"></script> <!--offline support (only this site) -->
+    <script src="./JS/app.js"></script>
 </body>
 </html>

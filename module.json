@@ -1,0 +1,28 @@
+{
+    "name" : "ThemeJs",
+    "short_name" : "TJs",
+    "version" : "0.0.1 Alpha A-1",
+    "description" : "A simple librairy that manage your site theme.",
+    "type" : "module",
+    "SourceFile" : "${fileDirname}\\src\\dist.js",
+    "WebComponents" : [
+        {
+            "WebComponents.pages" : [
+                "${fileDirname}\\index.html",
+                "${fileDirname}\\therms.html"
+            ] 
+        },
+        {
+            "WebComponents.styles" : [
+                "${fileDirname}\\CSS\\style.css",
+                "${fileDirname}\\CSS\\therms.css"
+            ]
+        },
+        {
+            "WebComponents.scripts" : [
+                "${fileDirname}\\JS\\app.js",
+                "${fileDirname}\\src\\dist.js"
+            ]
+        }
+    ]
+}

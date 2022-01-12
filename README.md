@@ -20,9 +20,9 @@ https://boubajoker.github.io/ThemeJs/src/dist.js
 
 ```js
 let drak_mod_btn = document.querySelector("#drak_mod_btn");
+let themejs = new ThemeJs();
 
 dark_mod_btn.addEventListener('click' ()=>{
-    let themejs = new ThemeJs()
-    themejs.change_bg_color("#000")
-})
+    themejs.change_bg_color("#000");
+});
 ```
