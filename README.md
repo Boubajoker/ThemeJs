@@ -54,3 +54,4 @@ See therms and conditions at [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file or ch
 - [ThirdPartyNotices.txt](ThirdPartyNotices.txt)
 - [LICENSE](LICENSE)
 - [AUTHORS.md](AUTHORS.md)
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
