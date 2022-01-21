@@ -4,37 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple librairy that manage your site theme.">
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="shortcut icon" href="./assets/icon/favicon.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="src/style_btn.css">
+    <link rel="shortcut icon" href="./assets/icon/favicon.png" type="image/x-icon">
     <title>Theme.Js module - Documentation</title>
 </head>
 <body>
-    <h1 class="main-title">ThemeJs</h1>
+    <base href="./">
+    <a class="main-img-container" id="main_img_container" href="./index.html">
+        <img src="./assets/img/logo.svg" alt="" class="main-img" id="main_img">
+    </a>
     <h2 class="a1" id="a1">How to use it ?</h2>
     <ul>
-        <li>Copy this link: <tt>https://boubajoker.github.io/ThemeJs/src/dist.js</tt> </li>
+        <li>Copy this link: <pre>https://boubajoker.github.io/ThemeJs/src/dist.js</pre> </li>
     </ul>
     <ul>
-        <li>Open your Html file and write this code to link the librairy to your site: <tt>script src="https://boubajoker.github.io/ThemeJs/src/dist.js" /script</tt> </li>
+        <li>Open your '.html' file and write this code to link the librairy to your site:</li>
     </ul>
+    <img src="./assets/img/code_img_02.PNG" alt="" class="code">
+    <button class="copy-code" id="copy_html">Copy Code</button>
     <ul>
         <li>Then, (for example) open your main script and type:</li>
-        <pre>
-            let drak_mod_btn = document.querySelector("#drak_mod_btn");
-
-            dark_mod_btn.addEventListener('click' ()=>{
-                let themejs = new ThemeJs();
-                themejs.change_bg_color("#000");
-            });
-        </pre>
     </ul>
-    <button class="copy-code" id="copy_code">Copy Code</button>
-    <p class="warn-msg">Commands list comming soon</p>
-    <a href="./therms.html" class="therms-link" id="therms_link">See therms and conditions here</a>
+    <img src="./assets/img/code_img.PNG" alt="" class="code">
+    <button class="copy-code" id="copy_js">Copy Code</button>
+    <h2 class="command-listing" id="command_listing">Commands:</h2>
+    <pre>change_bg_color()</pre>
+    <li>Change your page background in the color that you want, just type in the first args the element that you want to select for activate the bg change and type in second args rgb or html color.</li>
+    <pre>change_to_dark_mod()</pre>
+    <li>Change your page backround to the html color value: "#000", just type in the first args the element that you want to select for activate the bg change.</li>
+    <pre>change_to_light_mod()</pre>
+    <li>Change your page backround to the html color value: "#fff", just type in the first args the element that you want to select for activate the bg change.</li>
+    <pre>change_to_rgb()</pre>
+    <li>Change your page background into an rgb value, just type in the first args the element that you want to select for activate the bg change and then, you can type 'numbers' value expl:</li>
+    <pre>change_to_rgb("#change_bg_color", 255, 255, 255)</pre>
+    <a href="./therms.html" class="therms-link" id="therms_link" target="_blank" style="font-family: Consolas;">See therms and conditions here</a>
     <h2 class="demo-text">Demo:</h2>
     <button class="color-mod-btn" id="color_mod_btn">Change Bg Color</button>
     <button class="dark-mod-btn" id="dark_mod_btn">Change to dark mod</button>
     <button class="light-mod-btn" id="light_mod_btn">Change to light mod</button>
+    <button class="rgb-value" id="rgb_value">Change into an rgb value</button>
+    <h3 class="warn-msg">WARNNING, this project is still in alpha, it may contain bugs !!</h3>
+    <h3 class="happy-coding">Happy Coding !</h3>
     <!-- <script src="https://boubajoker.github.io/ThemeJs/src/dist.js"></script> online support -->
     <script src="./src/dist.js"></script> <!--offline support (only this site) -->
     <script src="./JS/app.js"></script>

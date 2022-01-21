@@ -121,6 +121,10 @@ copy of this project.
 
 Go to "[CopyRight.txt](CopyRight.txt)" file for more info or see [ThemeJs therms and conditions](https://boubajoker.github.io/ThemeJs/therms.html).
 
+**What is an 'illegal copy' ?**
+
+An illegal copy of this project is this project directory without the requied files ([CopyRight.txt](CopyRight.txt), [ThirdPartyNotices.txt](ThirdPartyNotices.txt), [LICENSE](LICENSE), [AUTHORS.md](AUTHORS.md)).
+
 Community Impact Guidelines were inspired by [Mozilla's code of conduct
 enforcement ladder](https://github.com/mozilla/diversity).
 

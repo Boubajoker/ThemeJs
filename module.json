@@ -1,10 +1,26 @@
 {
     "name" : "ThemeJs",
-    "short_name" : "TJs",
+    "short_name" : "Tjs",
     "version" : "0.0.1 Alpha A-1",
     "description" : "A simple librairy that manage your site theme.",
     "type" : "module",
     "SourceFile" : "${fileDirname}\\src\\dist.js",
+    "update_url" : "https://boubajoker.github.io/ThemeJs/src/",
+    "FrameWorks" : [
+        {
+            "FrameWorks.internalsFrameWorks" : [
+                "Date"
+            ]
+        }
+    ],
+    "NodeJsComponents" : [
+        {
+            "NodeJsComponents.NodeJs" : null,
+            "NodeJsComponents.npm" : null,
+            "NodeJsComponents.nmp_requirements" : null,
+            "NodeJsComponents.node_module_path" : null
+        }
+    ],
     "WebComponents" : [
         {
             "WebComponents.pages" : [
